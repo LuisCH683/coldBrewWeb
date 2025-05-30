@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.40e29968.css",
-    "main.js": "/static/js/main.ce51d1ca.js",
-    "index.html": "/index.html",
-    "main.40e29968.css.map": "/static/css/main.40e29968.css.map",
-    "main.ce51d1ca.js.map": "/static/js/main.ce51d1ca.js.map"
+    "main.css": "/coldBrewWeb/static/css/main.40e29968.css",
+    "main.js": "/coldBrewWeb/static/js/main.ce51d1ca.js",
+    "index.html": "/coldBrewWeb/index.html",
+    "main.40e29968.css.map": "/coldBrewWeb/static/css/main.40e29968.css.map",
+    "main.ce51d1ca.js.map": "/coldBrewWeb/static/js/main.ce51d1ca.js.map"
   },
   "entrypoints": [
     "static/css/main.40e29968.css",

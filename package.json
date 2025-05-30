@@ -1,12 +1,8 @@
 {
-      "scripts": {
-            "start": "react-scripts start",
-            "predeploy": "npm run build",
-            "deploy": "gh-pages -d dist",
-            "build": "react-scripts build",
-            "test": "react-scripts test",
-            "eject": "react-scripts eject"
-      },
+      "homepage": "https://luisch683.github.io/coldBrewWeb/",
+      "name": "coldbrewweb",
+      "version": "0.1.0",
+      "private": true,
       "dependencies": {
             "autoprefixer": "^10.0.0",
             "postcss": "^8",
@@ -18,7 +14,20 @@
             "tailwindcss": "^3.4.1",
             "tailwindcss-animate": "^1.0.7"
       },
-      "main": "/index.js",
+      "scripts": {
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d build",
+            "start": "react-scripts start",
+            "build": "react-scripts build",
+            "test": "react-scripts test",
+            "eject": "react-scripts eject"
+      },
+      "eslintConfig": {
+            "extends": [
+                  "react-app",
+                  "react-app/jest"
+            ]
+      },
       "browserslist": {
             "production": [
                   ">0.2%",
