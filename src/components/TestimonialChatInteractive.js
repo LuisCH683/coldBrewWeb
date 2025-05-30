@@ -256,7 +256,7 @@ const TestimonialChatInteractive = ({ initialTestimonials, title = 'Lo que dicen
       )}
 
       {/* Indicador de testimonio especial */}
-      {testimonials[currentTestimonial].rating == 5 && (
+      {testimonials[currentTestimonial].rating === 5 && (
         <div className="mt-4 text-center text-sm bg-amber-100 text-amber-800 py-2 px-4 rounded-full inline-block">
           ⭐ Testimonio destacado
         </div>
